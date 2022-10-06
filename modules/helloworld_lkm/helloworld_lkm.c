@@ -1,21 +1,5 @@
 /*
  * ch4/helloworld_lkm/helloworld_lkm.c
- ***************************************************************
- * This program is part of the source code released for the book
- *  "Linux Kernel Programming"
- *  (c) Author: Kaiwan N Billimoria
- *  Publisher:  Packt
- *  GitHub repository:
- *  https://github.com/PacktPublishing/Linux-Kernel-Programming
- *
- * From: Ch 4: Writing your First Kernel Module - LKMs Part 1
- ****************************************************************
- * Brief Description:
- * Our very first kernel module, the 'Hello, world' of course! The
- * idea being to explain the essentials of the Linux kernel's LKM
- * framework.
- *
- * For details, please refer the book, Ch 4.
  */
 #include <linux/init.h>
 #include <linux/kernel.h>
