@@ -1,5 +1,10 @@
 # ch5/lkm_template/Makefile
 
+#
+# To get started, just type:
+#  make help
+
+
 # To support cross-compiling for kernel modules:
 # For architecture (cpu) 'arch', invoke make as:
 #  make ARCH=<arch> CROSS_COMPILE=<cross-compiler-prefix>
@@ -21,7 +26,7 @@ else
 endif
 
 # Set FNAME_C to the kernel module name source filename (without .c)
-FNAME_C := lkm_template
+FNAME_C := min_sysinfo
 
 PWD            := $(shell pwd)
 obj-m          += ${FNAME_C}.o
