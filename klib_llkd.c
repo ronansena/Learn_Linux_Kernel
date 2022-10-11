@@ -1,19 +1,5 @@
 /*
- * klib_llkd.c
- ***********************************************************************
- * This program is part of the source code released for the book
- *  "Linux Kernel Programming"
- *  (c) Author: Kaiwan N Billimoria
- *  Publisher:  Packt
- *  GitHub repository:
- *  https://github.com/PacktPublishing/Linux-Kernel-Programming
- *
- ************************************************************************
- * Brief Description:
- * This kernel (module) code is meant to serve as a 'library' of sorts. Other
- * kernel modules in our codebase might wish to link into it and use it's code.
- *
- * For details, please refer the book.
+
  */
 #include "klib_llkd.h"
 

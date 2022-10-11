@@ -1,17 +1,5 @@
 /*
- * convenient.h
- ***********************************************************************
- * This program is part of the source code released for the book
- *  "Linux Kernel Programming"
- *  (c) Author: Kaiwan N Billimoria
- *  Publisher:  Packt
- *  GitHub repository:
- *  https://github.com/PacktPublishing/Linux-Kernel-Programming
- *
- ************************************************************************
- * Brief Description:
- * A few convenience macros and routines..
- * Mostly for kernel-space usage, some for user-space as well.
+
  */
 #ifndef __LKP_CONVENIENT_H__
 #define __LKP_CONVENIENT_H__

@@ -1,24 +1,5 @@
 /*
- * ch5/modstacking/core_lkm.c
- ***************************************************************
- * This program is part of the source code released for the book
- *  "Linux Kernel Programming"
- *  (c) Author: Kaiwan N Billimoria
- *  Publisher:  Packt
- *  GitHub repository:
- *  https://github.com/PacktPublishing/Linux-Kernel-Programming
- *
- * From: Ch 5: Writing your First Kernel Module- LKMs Part 2
- ****************************************************************
- * Brief Description:
- * This kernel module - core_lkm - is part of the 'modstacking' POC project:
- *    user_lkm
- *        |
- *    core_lkm           [<--- this code]
- * The user_lkm kernel module calls an (exported) function that resides
- * in the core_lkm kernel module.
- *
- * For details, please refer the book, Ch 5.
+
  */
 #define pr_fmt(fmt) "%s:%s(): " fmt, KBUILD_MODNAME, __func__
 
