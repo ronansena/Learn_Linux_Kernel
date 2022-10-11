@@ -1,6 +1,4 @@
-/*
 
- */
 #include "klib_llkd.h"
 
 /* llkd_minsysinfo:

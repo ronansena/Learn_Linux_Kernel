@@ -1,6 +1,4 @@
-/*
- * ch4/helloworld_lkm/helloworld_lkm.c
- */
+
 #include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/module.h>

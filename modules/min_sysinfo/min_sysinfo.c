@@ -1,6 +1,4 @@
-/*
- * ch5/min_sysinfo/min_sysinfo.c
- */
+
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>

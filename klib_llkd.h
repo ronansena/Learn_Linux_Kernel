@@ -1,6 +1,4 @@
-/* 
 
- */
 #ifndef __KLIB_LKP_H__
 #define __KLIB_LKP_H__
 

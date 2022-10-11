@@ -1,6 +1,4 @@
-/*
 
- */
 #ifndef __LKP_CONVENIENT_H__
 #define __LKP_CONVENIENT_H__
 

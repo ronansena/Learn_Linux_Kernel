@@ -1,4 +1,4 @@
-// ch4/printk_loglvl/printk_loglvl.c
+
 #include <linux/init.h>
 #include <linux/kernel.h>
 #include <linux/module.h>
