@@ -1,28 +1,4 @@
-# ch5/lkm_template/Makefile
-# ***************************************************************
-# This program is part of the source code released for the book
-#  "Linux Kernel Programming"
-#  (c) Author: Kaiwan N Billimoria
-#  Publisher:  Packt
-#  GitHub repository:
-#  https://github.com/PacktPublishing/Linux-Kernel-Programming
-#
-# From: Ch 5 : Writing Your First Kernel Module LKMs, Part 2
-# ***************************************************************
-# Brief Description:
-# A 'better' Makefile template for Linux LKMs (Loadable Kernel Modules); besides
-# the 'usual' targets (the build, install and clean), we incorporate targets to
-# do useful (and indeed required) stuff like:
-#  - adhering to kernel coding style (indent+checkpatch)
-#  - several static analysis targets (via sparse, gcc, flawfinder, cppcheck)
-#  - two 'dummy' dynamic analysis targets (KASAN, LOCKDEP)
-#  - a packaging (.tar.xz) target and
-#  - a help target.
-#
-# To get started, just type:
-#  make help
-#
-# For details, please refer the book, Ch 5.
+
 
 # To support cross-compiling for kernel modules:
 # For architecture (cpu) 'arch', invoke make as:
